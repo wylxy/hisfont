@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ed00f907-0099-402a-8efa-2435784820f3" name="变更" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/font.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/.env.development" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/.env.production" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/.env.staging" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/.eslintignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/.eslintrc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/babel.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/bin/build.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/bin/package.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/bin/run-web.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/build/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/public/html/ie.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/public/robots.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/src/App.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/src/api/doctor/doctor.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/src/api/jianchaxiang/jianchaxiang.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/src/api/keshi/keshi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/src/api/login.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/src/api/menu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/src/api/monitor/cache.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/src/api/monitor/job.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/src/api/monitor/jobLog.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/src/api/monitor/logininfor.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/src/api/monitor/online.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/src/api/monitor/operlog.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/src/api/monitor/server.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/src/api/register/register.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/src/api/system/config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/src/api/system/dept.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/src/api/system/dict/data.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/src/api/system/dict/type.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/src/api/system/menu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/src/api/system/notice.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/src/api/system/post.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/src/api/system/role.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/src/api/system/user.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/src/api/tool/gen.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/src/assets/401_images/401.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/src/assets/404_images/404.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/src/assets/404_images/404_cloud.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/src/assets/icons/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/src/assets/icons/svg/404.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/src/assets/icons/svg/bug.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/src/assets/icons/svg/build.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/src/assets/icons/svg/button.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/src/assets/icons/svg/cascader.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/src/assets/icons/svg/chart.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/src/assets/icons/svg/checkbox.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/src/assets/icons/svg/clipboard.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/src/assets/icons/svg/code.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/src/assets/icons/svg/color.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/src/assets/icons/svg/component.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/src/assets/icons/svg/dashboard.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/src/assets/icons/svg/date-range.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/src/assets/icons/svg/date.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/src/assets/icons/svg/dict.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/src/assets/icons/svg/documentation.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/src/assets/icons/svg/download.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/src/assets/icons/svg/drag.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/src/assets/icons/svg/druid.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/src/assets/icons/svg/edit.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/src/assets/icons/svg/education.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/src/assets/icons/svg/email.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/src/assets/icons/svg/example.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/src/assets/icons/svg/excel.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/src/assets/icons/svg/exit-fullscreen.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/src/assets/icons/svg/eye-open.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/src/assets/icons/svg/eye.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/src/assets/icons/svg/form.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/src/assets/icons/svg/fullscreen.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/src/assets/icons/svg/github.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/src/assets/icons/svg/guide.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/src/assets/icons/svg/icon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/src/assets/icons/svg/input.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/src/assets/icons/svg/international.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/src/assets/icons/svg/job.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/src/assets/icons/svg/language.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/src/assets/icons/svg/link.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/src/assets/icons/svg/list.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/src/assets/icons/svg/lock.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/src/assets/icons/svg/log.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/src/assets/icons/svg/logininfor.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/src/assets/icons/svg/message.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/src/assets/icons/svg/money.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/src/assets/icons/svg/monitor.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/src/assets/icons/svg/nested.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/src/assets/icons/svg/number.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/src/assets/icons/svg/online.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/src/assets/icons/svg/password.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/src/assets/icons/svg/pdf.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/src/assets/icons/svg/people.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/src/assets/icons/svg/peoples.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/src/assets/icons/svg/phone.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/src/assets/icons/svg/post.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/src/assets/icons/svg/qq.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/src/assets/icons/svg/question.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/src/assets/icons/svg/radio.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/src/assets/icons/svg/rate.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/src/assets/icons/svg/redis.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/src/assets/icons/svg/row.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/src/assets/icons/svg/search.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/src/assets/icons/svg/select.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/src/assets/icons/svg/server.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/src/assets/icons/svg/shopping.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/src/assets/icons/svg/size.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/src/assets/icons/svg/skill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/src/assets/icons/svg/slider.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/src/assets/icons/svg/star.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/src/assets/icons/svg/swagger.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/src/assets/icons/svg/switch.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/src/assets/icons/svg/system.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/src/assets/icons/svg/tab.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/src/assets/icons/svg/table.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/src/assets/icons/svg/textarea.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/src/assets/icons/svg/theme.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/src/assets/icons/svg/time-range.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/src/assets/icons/svg/time.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/src/assets/icons/svg/tool.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/src/assets/icons/svg/tree-table.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/src/assets/icons/svg/tree.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/src/assets/icons/svg/upload.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/src/assets/icons/svg/user.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/src/assets/icons/svg/validCode.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/src/assets/icons/svg/wechat.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/src/assets/icons/svg/zip.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/src/assets/icons/svgo.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/src/assets/images/dark.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/src/assets/images/light.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/src/assets/images/login-background.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/src/assets/images/profile.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/src/assets/logo/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/src/assets/styles/btn.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/src/assets/styles/element-ui.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/src/assets/styles/element-variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/src/assets/styles/index.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/src/assets/styles/mixin.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/src/assets/styles/ruoyi.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/src/assets/styles/sidebar.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/src/assets/styles/transition.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/src/assets/styles/variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/src/components/Breadcrumb/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/src/components/Crontab/day.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/src/components/Crontab/hour.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/src/components/Crontab/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/src/components/Crontab/min.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/src/components/Crontab/month.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/src/components/Crontab/result.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/src/components/Crontab/second.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/src/components/Crontab/week.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/src/components/Crontab/year.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/src/components/DictData/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/src/components/DictTag/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/src/components/Editor/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/src/components/FileUpload/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/src/components/Hamburger/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/src/components/HeaderSearch/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/src/components/IconSelect/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/src/components/IconSelect/requireIcons.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/src/components/ImageUpload/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/src/components/Pagination/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/src/components/PanThumb/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/src/components/ParentView/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/src/components/RightPanel/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/src/components/RightToolbar/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/src/components/RuoYi/Doc/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/src/components/RuoYi/Git/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/src/components/Screenfull/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/src/components/SizeSelect/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/src/components/SvgIcon/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/src/components/ThemePicker/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/src/components/TopNav/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/src/components/iFrame/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/src/directive/dialog/drag.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/src/directive/dialog/dragHeight.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/src/directive/dialog/dragWidth.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/src/directive/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/src/directive/permission/hasPermi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/src/directive/permission/hasRole.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/src/layout/components/AppMain.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/src/layout/components/InnerLink/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/src/layout/components/Navbar.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/src/layout/components/Settings/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/src/layout/components/Sidebar/FixiOSBug.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/src/layout/components/Sidebar/Item.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/src/layout/components/Sidebar/Link.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/src/layout/components/Sidebar/Logo.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/src/layout/components/Sidebar/SidebarItem.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/src/layout/components/Sidebar/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/src/layout/components/TagsView/ScrollPane.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/src/layout/components/TagsView/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/src/layout/components/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/src/layout/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/src/layout/mixin/ResizeHandler.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/src/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/src/permission.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/src/plugins/auth.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/src/plugins/cache.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/src/plugins/download.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/src/plugins/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/src/plugins/modal.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/src/plugins/tab.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/src/router/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/src/settings.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/src/store/getters.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/src/store/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/src/store/modules/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/src/store/modules/permission.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/src/store/modules/settings.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/src/store/modules/tagsView.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/src/store/modules/user.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/src/utils/auth.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/src/utils/dict/Dict.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/src/utils/dict/DictConverter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/src/utils/dict/DictData.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/src/utils/dict/DictMeta.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/src/utils/dict/DictOptions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/src/utils/dict/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/src/utils/errorCode.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/src/utils/generator/config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/src/utils/generator/css.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/src/utils/generator/drawingDefalut.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/src/utils/generator/html.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/src/utils/generator/icon.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/src/utils/generator/js.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/src/utils/generator/render.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/src/utils/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/src/utils/jsencrypt.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/src/utils/permission.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/src/utils/request.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/src/utils/ruoyi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/src/utils/scroll-to.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/src/utils/validate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/src/views/components/icons/element-icons.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/src/views/components/icons/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/src/views/components/icons/svg-icons.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/src/views/dashboard/BarChart.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/src/views/dashboard/LineChart.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/src/views/dashboard/PanelGroup.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/src/views/dashboard/PieChart.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/src/views/dashboard/RaddarChart.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/src/views/dashboard/mixins/resize.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/src/views/doctor/doctor/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/src/views/error/401.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/src/views/error/404.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/src/views/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/src/views/jianchaxiang/jianchaxiang/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/src/views/keshi/keshi/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/src/views/login.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/src/views/monitor/cache/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/src/views/monitor/druid/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/src/views/monitor/job/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/src/views/monitor/job/log.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/src/views/monitor/logininfor/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/src/views/monitor/online/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/src/views/monitor/operlog/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/src/views/monitor/server/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/src/views/redirect.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/src/views/register.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/src/views/register/register/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/src/views/system/config/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/src/views/system/dept/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/src/views/system/dict/data.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/src/views/system/dict/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/src/views/system/menu/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/src/views/system/notice/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/src/views/system/post/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/src/views/system/role/authUser.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/src/views/system/role/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/src/views/system/role/selectUser.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/src/views/system/user/authRole.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/src/views/system/user/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/src/views/system/user/profile/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/src/views/system/user/profile/resetPwd.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/src/views/system/user/profile/userAvatar.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/src/views/system/user/profile/userInfo.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/src/views/tool/build/CodeTypeDialog.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/src/views/tool/build/DraggableItem.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/src/views/tool/build/IconsDialog.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/src/views/tool/build/RightPanel.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/src/views/tool/build/TreeNodeDialog.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/src/views/tool/build/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/src/views/tool/gen/basicInfoForm.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/src/views/tool/gen/editTable.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/src/views/tool/gen/genInfoForm.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/src/views/tool/gen/importTable.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/src/views/tool/gen/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/src/views/tool/swagger/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hisedu-ui/vue.config.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2i2fFYSNLXP3rdEt9xmCR6Xovxr" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/86183/Desktop/font",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/hisedu-ui/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.dev" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="ed00f907-0099-402a-8efa-2435784820f3" name="变更" comment="" />
+      <created>1718693489483</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1718693489483</updated>
+      <workItem from="1718693491330" duration="759000" />
+      <workItem from="1718764449018" duration="12000" />
+      <workItem from="1718863698091" duration="4374000" />
+      <workItem from="1718871443394" duration="108000" />
+      <workItem from="1718871579103" duration="368000" />
+      <workItem from="1718876913207" duration="345000" />
+      <workItem from="1718877954702" duration="362000" />
+      <workItem from="1718878618887" duration="23000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
