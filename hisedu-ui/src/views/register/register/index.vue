@@ -58,8 +58,8 @@
           ></el-option>
         </el-select>
       </el-form-item>
-      <el-form-item label="挂号级别" prop="registLevelId">
-        <el-select v-model="queryParams.registLevelId" placeholder="请选择挂号级别" clearable size="small">
+      <el-form-item label="挂号级别" prop="registLevel">
+        <el-select v-model="queryParams.registLevel" placeholder="请选择挂号级别" clearable size="small">
           <el-option
             v-for="dict in dict.type.regist_level"
             :key="dict.value"
@@ -68,8 +68,8 @@
           />
         </el-select>
       </el-form-item>
-      <el-form-item label="结算类别" prop="settleCategoryId">
-        <el-select v-model="queryParams.settleCategoryId" placeholder="请选择结算类别" clearable size="small">
+      <el-form-item label="结算类别" prop="settleCategory">
+        <el-select v-model="queryParams.settleCategory" placeholder="请选择结算类别" clearable size="small">
           <el-option
             v-for="dict in dict.type.settle_category"
             :key="dict.value"
@@ -448,12 +448,12 @@ export default {
         noon: [
           { required: true, message: "午别不能为空", trigger: "change" }
         ],
-        deptmentId: [
-          { required: true, message: "挂号科室不能为空", trigger: "blur" }
-        ],
-        employeeId: [
-          { required: true, message: "挂号医生不能为空", trigger: "blur" }
-        ],
+        // deptmentId: [
+        //   { required: true, message: "挂号科室不能为空", trigger: "blur" }
+        // ],
+        // employeeId: [
+        //   { required: true, message: "挂号医生不能为空", trigger: "blur" }
+        // ],
         registLevel: [
           { required: true, message: "挂号级别不能为空", trigger: "change" }
         ],
@@ -472,14 +472,16 @@ export default {
   created() {
     this.getList();
     //获取可用科室
-    getKeshiList().then(response => {
-      this.keshiList = response.data;
+    getKeshiList({}).then(response => {
+      console.log(response)
+      this.keshiList = response;
     });
   },
   methods: {
     /** 查询挂号管理列表 */
     getList() {
       this.loading = true;
+      // this.queryParams.settleCategoryId = this.form.settleCategoryId
       listRegister(this.queryParams).then(response => {
         this.registerList = response.rows;
         this.total = response.total;
@@ -545,6 +547,7 @@ export default {
       this.reset();
       const id = row.id || this.ids
       getRegister(id).then(response => {
+        console.log(response.data)
         this.form = response.data;
         this.open = true;
         this.title = "修改挂号管理";
@@ -582,7 +585,7 @@ export default {
     },
     /** 获取医生列表 */
     getDoctorList() {
-      this.deptmentId = this.form.deptmentId;
+      this.deptmentId = this.queryParams.deptmentId;
       getDoctorList(this.form.deptmentId).then(response => {
         this.doctorList = response.data;
       });

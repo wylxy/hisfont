@@ -14,7 +14,6 @@ export function listKeshi(query) {
 export function getKeshiList() {
   return request({
     url: '/keshi/keshi/getKeshiList',
-    method: 'get'
   })
 }
 
