@@ -192,7 +192,9 @@ export default {
       // 医生管理表格数据
       doctorList: [],
 
-      keshiList: [],
+      keshiList: [
+        {id:2,ksname:"外科"}
+      ],
       // 弹出层标题
       title: "",
       // 是否显示弹出层
@@ -243,6 +245,7 @@ export default {
     getList() {
       this.loading = true;
       listDoctor(this.queryParams).then(response => {
+        console.log(response)
         this.doctorList = response.rows;
         this.total = response.total;
         this.loading = false;
@@ -294,10 +297,12 @@ export default {
       this.reset();
       const id = row.id || this.ids
       getDoctor(id).then(response => {
-        this.form = response.data;
+        this.form = response;
         this.open = true;
         this.title = "修改医生管理";
+        console.log(response)
       });
+
     },
     /** 提交按钮 */
     submitForm() {
@@ -310,7 +315,16 @@ export default {
               this.getList();
             });
           } else {
-            addDoctor(this.form).then(response => {
+            let ksid = this.form.ksid;
+            const res = this.keshiList.filter((item) => item.id===ksid);
+            console.log(res);
+            let params = {
+              ...this.form,
+              status: '1',
+              ksname: res[0].ksname
+            }
+            console.log(params)
+            addDoctor(params).then(response => {
               this.$modal.msgSuccess("新增成功");
               this.open = false;
               this.getList();
